@@ -1,0 +1,13 @@
+.app-select {
+  display: flex;
+  flex-direction: column;
+
+  &__label {
+    margin-bottom: 4px;
+  }
+
+  &__select {
+    padding: 8px;
+    border-radius: 4px;
+  }
+}

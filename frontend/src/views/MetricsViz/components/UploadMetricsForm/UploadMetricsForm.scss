@@ -1,0 +1,17 @@
+.upload-metrics-form {
+  width: 30%;
+
+  &__form {
+    display: flex;
+    gap: 20px;
+  }
+
+  &__item {
+    width: 200px;
+  }
+
+  &__submit {
+    margin-top: 20px;
+    width: 100%;
+  }
+}

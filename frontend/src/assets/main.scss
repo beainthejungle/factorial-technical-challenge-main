@@ -1,0 +1,25 @@
+$app-horizontal-padding: 60px;
+$app-vertical-padding: 40px;
+
+html, body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  padding: $app-vertical-padding $app-horizontal-padding;
+  width: 70%;
+  height: calc(100vh - $app-vertical-padding * 2);
+
+  @media screen and (max-width: 1000px) {
+    width: 90%;
+  }
+}

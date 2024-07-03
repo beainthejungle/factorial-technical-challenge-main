@@ -1,0 +1,21 @@
+$border: 1px solid #cecece;
+
+.metrics-viz {
+  height: 100%;
+
+  &__form {
+    border-top: $border;
+  }
+
+  &__title {
+    border-bottom: $border;
+    padding-bottom: 16px;
+  }
+
+  &__error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+  }
+}
